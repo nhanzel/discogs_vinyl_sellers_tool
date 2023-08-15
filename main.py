@@ -7,7 +7,7 @@ def main():
     parser.add_argument(
         "-p",
         "--path",
-        help="Tag denoting the local path to the text file containing vinyl IDs",
+        help="Tag denoting the absolute path to the text file containing vinyl IDs",
         action="count",
     )
     parser.add_argument(
