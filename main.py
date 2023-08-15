@@ -27,6 +27,8 @@ def main():
             key, value = line.split("=")
             config[key] = value
 
+    api.set_token(config["token"])
+
     if args.path:
         with open(config["filepath"], "r") as file:
             vinyl_ids = file.read().splitlines()

@@ -1,3 +1,4 @@
 filepath=C:\Users\natha\OneDrive\Desktop\discogs_ids.txt
 folder=6187674
+token=kzWHayyiXOkEyOeIjhLMQWMrOAIblEOwCxYQHrOf
 username=nhanzel

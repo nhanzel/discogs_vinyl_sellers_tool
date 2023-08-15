@@ -1,6 +1,11 @@
 import requests
 
-personal_access_token = "kzWHayyiXOkEyOeIjhLMQWMrOAIblEOwCxYQHrOf"
+personal_access_token = ""
+
+
+def set_token(token):
+    global personal_access_token
+    personal_access_token = token
 
 
 def get_vinyl_ids(folder_name, username):
